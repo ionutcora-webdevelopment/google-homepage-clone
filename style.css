@@ -261,3 +261,43 @@ footer img {
     width: 12px;
     margin-right: 5px;
 }
+
+/* mobile */
+
+@media only screen and (max-width: 992px) {
+
+    #search-bar {
+        max-width: 484px;
+    }
+    
+    footer div:last-of-type {
+        flex-direction: column;
+    }
+
+    footer div:last-of-type div {
+        flex-direction: row;
+    }
+
+    footer li {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    nav {
+        justify-content: end;
+    }
+
+    nav ul:first-of-type {
+        display: none;
+    }
+
+    #search-bar {
+        max-width: 300px;
+    }
+
+    footer div:last-of-type div {
+        display: none;
+    }
+}
