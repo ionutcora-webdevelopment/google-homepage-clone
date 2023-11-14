@@ -87,3 +87,120 @@ nav a:hover {
     text-decoration: none;
     background: #93baf9;
 }
+
+/* search */
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#google-logo {
+    width: 350px;
+    margin-bottom: -50px;
+    margin-top: 30px;
+}
+
+#search-bar {
+    border: 1px solid #5f6368;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+    min-height: 44px;
+    background: #202124;
+    border: 1px solid #5f6368;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    width: auto;
+    max-width: 584px;
+    padding: 5px 8px 0 14px;
+}
+
+#search-bar:hover {
+    background-color: #303134;
+    box-shadow: 0 1px 6px 0 #171717;
+    border-color: rgba(223,225,229,0);
+}
+
+#search-bar img {
+    width: 17px;
+}
+
+#search-bar div:first-of-type {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+    height: 46px;
+}
+
+#search-bar div:first-of-type img {
+    filter: invert();
+    width: 14px;
+    margin-left: 4px;
+}
+
+#search-bar div:last-of-type {
+    margin-top: -5px;
+    display: flex;
+    align-items: center;
+}
+
+#search-bar div:last-of-type img {
+    margin: auto 10px;
+}
+
+#search-bar div:last-of-type img:last-of-type {
+    width: 25px;
+}
+
+textarea {
+    resize: none;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    margin-bottom: 8px;
+    padding: 0;
+    color: #e8eaed;
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    -webkit-tap-highlight-color: transparent;
+}
+
+#google-btns {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#google-btns a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 5px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+#google-btns a:hover {
+    box-shadow: 0 1px 3px rgba(23,23,23,0.24);
+    background-color: #303134;
+    border: 1px solid #5f6368;
+    color: #e8eaed;
+}
